@@ -6,8 +6,13 @@ function preventRefreshOnSubmit(){
 
 preventRefreshOnSubmit()
 
-let input = document.querySelector('input');
+let input = $('input');
 
 function retrieveEmployeeInformation() {
   return input.value;
+}
+
+function addNewElementAsLi() {
+  let employee
+  $('.employee-list').append()
 }
