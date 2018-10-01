@@ -14,5 +14,5 @@ function retrieveEmployeeInformation() {
 
 function addNewElementAsLi() {
   let employeeName = retrieveEmployeeInformation();
-  $('.employee-list').append('employeeName');
+  return $('ul.employee-list').append(employeeName);
 }
