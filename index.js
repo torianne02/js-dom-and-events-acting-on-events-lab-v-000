@@ -24,3 +24,8 @@ function addNewLiOnClick() {
     resetInput();
   });
 }
+
+
+function resetInput() {
+  document.querySelector('input').value = '';
+}
